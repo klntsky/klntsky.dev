@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+      body {
+          max-width: 1000px;
+          margin: 50px auto;
+          line-height: 2;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div>
+      This is a list of all notable projects I've ever started, and their current statuses. The statuses have precise meanings:
+    </div>
+
+    <br>
+    <span class="label label-success">DONE</span> - usable in its current publicly-available form<br>
+    <span class="label label-warning">STALE</span> - not developing anymore, would consider accepting contributions<br>
+    <span class="label label-danger">DEAD</span>- not developing anymore and not accepting contributions (may consider handing the control over)<br>
+    <span class="label label-warning">WIP</span>- there is some functionality I plan to add, not necessarily very soon<br>
+    <span class="label label-info">HELP WANTED</span> - willing to accept contributions, including paid work on the project<br>
+    <br>
+    <table class="table table-bordered" id="table">
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Status</th>
+        <th>Terms</th>
+
+        <th>Links</th>
+      </tr>
+
+
+      <tr>
+      </tr>
+
+      <tr>
+        <td>
+          Rock Paper Scissors Defence (2024)
+        </td>
+        <td>
+          A two-player strategy game. Fight using ✂️, 📄 & 🪨 on a 3x3 grid.
+        </td>
+        <td>
+          <span class="label label-success">DONE</span>
+        </td>
+        <td>
+          FOSS
+        </td>
+        <td>
+          <a href="https://rps.sigil.network/"> play </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          token.menu (2024)
+        </td>
+        <td>
+          Web3 token directory: explore, swap and add assets to your wallet. Features include:
+          <ul>
+            <li>all info in one page - no navigation</li>
+            <li>add tokens and network RPCs to your wallet</li>
+            <li>advanced filtering - by volume, etc (TODO)</li>
+            <li>bulk add tokens to the wallet (TODO)</li>
+            <li>bulk swap tokens (TODO)</li>
+          </ul>
+
+        </td>
+        <td>
+          <span class="label label-success">DONE</span>
+          <span class="label label-warning">WIP</span>
+          <span class="label label-info">HELP WANTED</span>
+        </td>
+        <td>
+          FOSS, commercial
+        </td>
+        <td>
+          <a href="https://token.menu"> website </a> /
+          <a href="https://t.me/token_menu">telegram</a> /
+          <a href="https://x.com/TokenMenu">twitter</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          @ton_2x_bot (2024)
+        </td>
+        <td>
+          A portfolio tracker for TON that sends alerts when an asset price moves 2x up or down from the last purchase price. There are plans to introduce a novel portfolio view UI that has never been tried yet, as far as I know (DM for details)
+        </td>
+        <td>
+          <span class="label label-success">DONE</span>
+          <span class="label label-warning">WIP</span>
+          <span class="label label-info">HELP WANTED</span>
+        </td>
+        <td>
+          FOSS, commercial
+        </td>
+        <td>
+          <a href="https://t.me/ton_2x_bot"> bot </a> /
+          <a href="https://t.me/ton_2x_ru">tg channel [RU]</a> /
+          <a href="https://t.me/ton_2x_en">tg channel [EN]</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          -
+        </td>
+        <td>
+          Social graph metrics for GitHub, similar in spirit to <a href="https://tweetscout.io/">tweetscout</a> and <a href="https://twitterscore.io/">twitterscore<a>.
+        </td>
+        <td>
+          <span class="label label-warning">STALE</span>
+          <span class="label label-info">HELP WANTED</span>
+        </td>
+        <td>
+          Proprietary, commercial
+        </td>
+        <td>
+        </td>
+      </tr>
+
+      <td>
+          YouTubeCore (2022)
+        </td>
+        <td>
+          A <a href="https://en.wikipedia.org/wiki/VJing">VJ</a> tool that uses YouTube embedded players and allows to automate volume changes in sync with opacity.
+        </td>
+        <td>
+          <span class="label label-success">DONE</span>
+          <span class="label label-warning">STALE</span>
+        </td>
+        <td>
+          FOSS, non-commercial
+        </td>
+        <td>
+          <a href="https://youtubecore.sigil.network/">website</a> /
+          <a href="https://www.youtube.com/watch?v=sZJwwGAQmKE&t=254s">example set</a>  /
+          <a href="https://github.com/klntsky/youtubecore">GitHub</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          SunKey (2023)
+        </td>
+        <td>
+          An MVP of a geometry game in Rust that uses optic physics. The goal for the player is to get rid of the dark stripes.
+        </td>
+        <td>
+          <span class="label label-danger">DEAD</span>
+        </td>
+        <td>
+          FOSS, non-commercial
+        </td>
+        <td>
+          <a target="_blank" href="https://github.com/klntsky/SunKey/">github</a>
+          <a target="_blank" href="https://x.com/klntsky/status/1687853518395240448">video preview</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          DOM Update Highlighter (2023)
+        </td>
+        <td>
+           A tool for frontend developers that makes DOM updates more visible as they happen on a webpage.
+        </td>
+        <td>
+          <span class="label label-success">DONE</span>
+          <span class="label label-warning">STALE</span>
+        </td>
+        <td>
+          FOSS, non-commercial
+        </td>
+        <td>
+          <a href="https://dom-up.date/">website</a> / <a href="https://github.com/klntsky/dom-update-highlighter/">GitHub</a> / <a href="https://chrome.google.com/webstore/detail/dom-update-highlighter/ngbjjfmkdbnkobmnenaclacogdkalimn">Chrome</a> / <a href="https://addons.mozilla.org/en-US/firefox/addon/dom-update-highlighter/">Firefox</a>
+        </td>
+      </tr>
+
+
+
+      <tr>
+        <td>
+          SEC, see you! (2023)
+        </td>
+        <td>
+          A catalogue of DeFi platforms that facilitate permissionless trading
+        </td>
+        <td>
+          <span class="label label-success">DONE</span>
+          <span class="label label-warning">WIP</span>
+          <span class="label label-info">HELP WANTED</span>
+        </td>
+        <td>
+          FOSS, commercial
+        </td>
+        <td>
+          <a href="https://sec.cyou/">website</a> /
+          <a href="https://github.com/klntsky/sec.cyou/">GitHub</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          @MemePlexBot (2024)
+        </td>
+        <td>
+          A search engine for memes that crawls telegram channels.
+
+          <ul>
+            <li>Fuzzy search</li>
+            <li>A built-in keyword subscription system: get notified about newly discovered memes based on their contents</li>
+            <li>post memes to your own channel right from the bot</li>
+          </ul>
+        </td>
+        <td>
+          <span class="label label-success">DONE</span>
+          <span class="label label-warning">WIP</span>
+        </td>
+        <td>
+          FOSS, commercial, paid features
+        </td>
+        <td>
+          <a href="https://memeplex.pics/">website</a> /
+          <a href="https://t.me/MemePlexBot">telegram bot</a> /
+          <a href="https://t.me/memeplex_pics">telegram channel</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          purescript-docs-search
+        </td>
+        <td>
+          A frontend-only search engine for PureScript package sets. Has been included into <a href="https://github.com/purescript/spago/tree/master/docs-search">spago</a>.
+        </td>
+        <td>
+          <span class="label label-success">DONE</span>
+          <span class="label label-warning">WIP</span>
+        </td>
+        <td>
+          FOSS, non-commercial
+        </td>
+        <td>
+          <a href="https://github.com/purescript/purescript-docs-search">GitHub</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          Switch To Audible Tab (2018)
+        </td>
+        <td>
+          A browser addon that allows the user to switch to the tab that is making sound.
+        </td>
+        <td>
+          <span class="label label-success">DONE</span>
+          <span class="label label-warning">STALE</span>
+        </td>
+        <td>
+          FOSS, non-commercial
+        </td>
+        <td>
+          <a href="https://addons.mozilla.org/en-US/firefox/addon/switch-to-audible-tab/">Firefox</a> / <a href="https://chrome.google.com/webstore/detail/switch-to-audible-tab/obhmhiijebijngjodncffkecfiolonom">Chrome</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          axes (2018)
+        </td>
+        <td>
+          A browser addon that introduces a DSL for keyboard navigation to apply various actions to different target elements: in spirit of "link following" feature of some older browsers or addons like pentadactyl, but with more actions available and customizability.
+        </td>
+        <td>
+          <span class="label label-success">DONE</span>
+          <span class="label label-danger">DEAD</span>
+        </td>
+        <td>
+          FOSS, non-commercial
+        </td>
+        <td>
+          <a href="https://github.com/axes-webext/axes">GitHub</a> /
+          <a href="https://addons.mozilla.org/en-US/firefox/addon/axes/">Firefox</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          dzen-dhall (2019)
+        </td>
+        <td>
+          An implementation of a widget manager for <a href="https://wiki.archlinux.org/title/Dzen">dzen2</a> with programmability, <a href="https://github.com/dzen-dhall/plugins">plugins</a> and customization, using <a href="https://dhall-lang.org">Dhall language</a>
+        </td>
+        <td>
+          <span class="label label-success">DONE</span>
+          <span class="label label-danger">DEAD</span>
+        </td>
+        <td>
+          FOSS, non-commercial
+        </td>
+        <td>
+          <a href="https://github.com/dzen-dhall/dzen-dhall">GitHub</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          @kiniro/lang (2019)
+        </td>
+        <td>
+          An embeddable lisp-like language interpreter written in JS. Offers stack safety via async.
+        </td>
+        <td>
+          <span class="label label-success">DONE</span>
+          <span class="label label-danger">DEAD</span>
+        </td>
+        <td>
+          FOSS, non-commercial
+        </td>
+        <td>
+          <a href="https://www.npmjs.com/package/@kiniro/lang">NPM</a>
+          <a href="https://gitlab.com/kiniro/lang#readme">GitLab</a>
+
+        </td>
+      </tr>
+
+
+    </table>
+
+
+  </body>
+</html>
